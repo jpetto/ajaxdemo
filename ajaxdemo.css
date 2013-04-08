@@ -1,0 +1,44 @@
+body {
+	background: #f1eedb;
+}
+
+#wrapper {
+	width: 70%;
+	padding: 5%;
+	margin: 0 auto;
+	font-size: 22px;
+	background: #fff;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+a {
+	color: #5660f1;
+	text-decoration: none;
+}
+
+.service-nav {
+	border-radius: 8px;
+	background: #5660f1;
+	color: #fff;
+	padding: 0.5em;
+	margin-right: 0.5em;
+}
+
+.service-nav:hover {
+	background: #f15966;
+}
+
+.service {
+	display:none;
+
+}
+
+.service:first-child {
+	display: block;
+}
+
+.service img {
+	float: left;
+	margin: 0 5% 5% 0;
+	max-width: 40%;
+}
